@@ -1,0 +1,15 @@
+TUPLE : 
+tuple is same aslist but it is not mutable 
+round bracket specifies tuple ()
+example: tup = (24, 56, 'navin')
+
+SET:
+set also same as list but it is not indexed.It uses {} bracket
+
+Dictionary: 
+every value has a key
+ex: 
+data = {1:'navin', 2:'sejan'}
+
+DATA Types:
+none, numeric (int, float, complex, bool), list, tuple, set, string, range, dictionary

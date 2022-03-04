@@ -1,4 +1,0 @@
-TUPLE : 
-tuple is same aslist but it is not mutable 
-round bracket specifies tuple
-example: tup = (24, 56, 'navin')
