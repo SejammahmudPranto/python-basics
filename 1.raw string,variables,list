@@ -1,6 +1,9 @@
 print(r'c:\docs\navin') //raw string: ignore all the special meanings in the whole string
+
 variables: int, float, double, string
+
 list: 
 nums = [23,56,27, 'navin'] // list is a variable having more than one number of datas
 //list is mutable(we can change/add values
+
 cnt + space will let the popup window of a built in function
