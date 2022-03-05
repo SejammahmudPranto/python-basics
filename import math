@@ -1,0 +1,5 @@
+import math //calls math function
+floor and ceil funtion
+ex : 2 and 3's floor is 2 and ceil is 3
+import math as m ( shortcut )
+
