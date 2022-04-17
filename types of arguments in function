@@ -26,3 +26,11 @@ def person(name, age):
   
  person(age=18, name = "supran")
  
+ kwargs:keyworded variable length arguments
+ 
+ ex: 
+ def person(name, **data):  # **data is the keyworded variable length argument
+    print(name)
+    print(data)
+
+person('pranto', age = 25, hometown = "jessore")
