@@ -1,0 +1,67 @@
+break: to get out of look
+
+example:
+available = 5 #number of available candies
+
+user_need = int(input("Enter the amount: ")) #prompt user for candy
+i=1
+while ( i <= user_need) :
+
+        if i > available:
+            print("out of stock")
+            break #just get out of the loop
+        else:
+            print(f"{i} candy")
+            i += 1
+
+
+print("Good Bye!")
+
+
+
+Continue: just the skip the remaining execution and continue the loop
+
+ex:
+for i in range(100):
+    if i%3 == 0 or i%5 == 0:
+        continue #continue means just skip the remaining things
+    print(i)
+
+
+print("Good Bye!")
+
+pass: 
+Diff b/w Continue and Pass:
+  Continue skip the loop , will not executes the below statements and goes to top of loop, where pass executes the remaining logic. Example below.
+
+Continue :
+
+for i in range(11):
+      if (i%2==0):
+        continue
+      print( i , " is odd")
+----------------------------------------
+1  is odd
+3  is odd
+5  is odd
+7  is odd
+9  is odd
+
+Pass : there is no code here in this condiion
+
+for i in range(11):
+      if (i%2==0):
+        pass
+      print( i , " is an number")
+---------------------------------------------
+0  is an number
+1  is an number
+2  is an number
+3  is an number
+4  is an number
+5  is an number
+6  is an number
+7  is an number
+8  is an number
+9  is an number
+10  is an number
