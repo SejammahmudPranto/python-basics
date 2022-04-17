@@ -1,0 +1,2 @@
+import math : this means to import everything from math. so one has to use "math" always math.sqrt() or math.ceil() everytime
+from math import * :this no longer requires to write math everytime
