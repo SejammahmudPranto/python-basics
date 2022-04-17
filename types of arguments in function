@@ -1,0 +1,28 @@
+variable length argument: a function that can take unlimited data
+
+ex: 
+
+def sum(a, *b):  #*b is a tuple which can take many data
+
+  c = a;
+
+  for i in b:
+    c += i
+  print(c)
+  return c
+  
+   
+default argument: 
+
+ex: 
+def (name, age = 18: # here if there is no age number passed when the function  is called, then the default will be 18
+
+key argument:
+ex:
+
+def person(name, age):
+  algoithm...
+  
+  
+ person(age=18, name = "supran")
+ 
