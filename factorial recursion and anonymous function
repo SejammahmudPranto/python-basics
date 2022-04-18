@@ -8,3 +8,11 @@ def fact(n):
 
 x = fact(4)
 print(x)
+
+anonymous/lambdafunction:
+
+f = lambda a : a*a
+
+
+result = f(5)
+print(result)
