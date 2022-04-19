@@ -1,0 +1,26 @@
+class computer():
+
+    wheels = 4  #class variables. all objects share it
+
+    def __init__(self):
+        self.name = "SUPRAN"  #instance variables. differ to different objects
+        self.age = 22
+
+    def compare(self, others):
+        if self.age == others.age:
+            return True
+        else:
+            return False
+
+c1 = computer()
+c1.age = 20
+c1.name = "microsoft"
+c2 = computer()
+
+if c1.compare(c2):
+    print("there age is same")
+else:
+    print("There age is not same")
+
+print(c1.age, c1.wheels)
+print(c2.age, c1.wheels)
