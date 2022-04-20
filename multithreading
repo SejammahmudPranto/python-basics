@@ -1,0 +1,26 @@
+from threading import *
+from time import sleep
+
+class A(Thread): #this thread is opening a new thread for any object
+    def run(self):
+        for i in range(5):
+            print("Hello")
+            sleep(1) #this is same as delay function
+
+class B(Thread):
+    def run(self):
+        for i in range(5):
+            print("Hi")
+            sleep(1)
+
+a = A()
+b = B()
+
+a.start()
+sleep(0.2)
+b.start()
+
+a.join() #main thread is waiting for a to join
+b.join()
+
+print("BYE")
